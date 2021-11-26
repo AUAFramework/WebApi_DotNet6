@@ -13,7 +13,7 @@
 
 <h2>AUA WebApi Swagger-UI</h2>
  For the web api version you can use angular, react, vue.js or .... javascript front framework. 
-<img src="https://auaframework.com/images/auaUi/api.png" alt="Girl in a jacket"  height="600">
+<img src="https://auaframework.com/images/auaUi/api.png" alt="Asp.Net Unique Architecture"  height="600">
 
 
 <h2>Introduction AUA </h2>
