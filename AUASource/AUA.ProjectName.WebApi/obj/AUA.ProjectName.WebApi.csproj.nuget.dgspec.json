@@ -1,0 +1,614 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.WebApi\\AUA.ProjectName.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj",
+        "projectName": "AUA.ProjectName.Common",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj",
+        "projectName": "AUA.ProjectName.DataLayer",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj"
+              },
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj",
+        "projectName": "AUA.ProjectName.DomainEntities",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.InMemoryServices\\AUA.ProjectName.InMemoryServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.InMemoryServices\\AUA.ProjectName.InMemoryServices.csproj",
+        "projectName": "AUA.ProjectName.InMemoryServices",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.InMemoryServices\\AUA.ProjectName.InMemoryServices.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.InMemoryServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj",
+        "projectName": "AUA.ProjectName.ManualMapping",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ManualMapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj",
+        "projectName": "AUA.ProjectName.Models",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
+        "projectName": "AUA.ProjectName.Services",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj"
+              },
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.InMemoryServices\\AUA.ProjectName.InMemoryServices.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.InMemoryServices\\AUA.ProjectName.InMemoryServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj",
+        "projectName": "AUA.ProjectName.ValidationServices",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ValidationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.WebApi\\AUA.ProjectName.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.WebApi\\AUA.ProjectName.WebApi.csproj",
+        "projectName": "AUA.ProjectName.WebApi",
+        "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.WebApi\\AUA.ProjectName.WebApi.csproj",
+        "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ABC\\source\\repos\\WebApplicationNugetPakage\\ClassLibraryTestNuget\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj": {
+                "projectPath": "C:\\Users\\ABC\\Desktop\\AUA_WebApi_DotNet6_V1.1\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

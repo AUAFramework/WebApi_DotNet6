@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BaseModel\BaseMapping\**" />
+    <Compile Remove="LocalInMemoryModels\**" />
+    <EmbeddedResource Remove="BaseModel\BaseMapping\**" />
+    <EmbeddedResource Remove="LocalInMemoryModels\**" />
+    <None Remove="BaseModel\BaseMapping\**" />
+    <None Remove="LocalInMemoryModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AUA.ProjectName.DomainEntities\AUA.ProjectName.DomainEntities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AUA.Mapping">
+      <HintPath>..\AUACore\AUA.Mapping.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

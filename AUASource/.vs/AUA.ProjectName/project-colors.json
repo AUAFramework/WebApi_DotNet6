@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "921ee3fd-10f3-4474-b627-d70a16cec706": {
+      "ProjectGuid": "921ee3fd-10f3-4474-b627-d70a16cec706",
+      "DisplayName": "AUA.ProjectName.Common",
+      "ColorIndex": 0
+    },
+    "06d58324-10b8-4a78-befb-ebfad5121b6e": {
+      "ProjectGuid": "06d58324-10b8-4a78-befb-ebfad5121b6e",
+      "DisplayName": "AUA.ProjectName.DataLayer",
+      "ColorIndex": 1
+    },
+    "f9e37bbe-34ef-4ed0-ae8a-84f90c6ab781": {
+      "ProjectGuid": "f9e37bbe-34ef-4ed0-ae8a-84f90c6ab781",
+      "DisplayName": "AUA.ProjectName.DomainEntities",
+      "ColorIndex": 2
+    },
+    "1d9e6244-e783-4093-9503-bd6010c651ac": {
+      "ProjectGuid": "1d9e6244-e783-4093-9503-bd6010c651ac",
+      "DisplayName": "AUA.ServiceInfrastructure",
+      "ColorIndex": 3
+    },
+    "23053a51-f162-4f39-863c-c09a725a2396": {
+      "ProjectGuid": "23053a51-f162-4f39-863c-c09a725a2396",
+      "DisplayName": "AUA.Mapping",
+      "ColorIndex": 4
+    },
+    "dd1f13eb-02e9-4da0-a569-bafb369dd62b": {
+      "ProjectGuid": "dd1f13eb-02e9-4da0-a569-bafb369dd62b",
+      "DisplayName": "AUA.ProjectName.ManualMapping",
+      "ColorIndex": 5
+    },
+    "028adb2d-f7cc-4df2-b9bd-b2b32a5aeee1": {
+      "ProjectGuid": "028adb2d-f7cc-4df2-b9bd-b2b32a5aeee1",
+      "DisplayName": "AUA.ProjectName.Models",
+      "ColorIndex": 6
+    },
+    "eee437b5-5a3f-4a25-b0bb-95bea198c977": {
+      "ProjectGuid": "eee437b5-5a3f-4a25-b0bb-95bea198c977",
+      "DisplayName": "AUA.ProjectName.InMemoryServices",
+      "ColorIndex": 7
+    },
+    "7787d24e-16af-4ce2-a41e-e4b5ca9107ca": {
+      "ProjectGuid": "7787d24e-16af-4ce2-a41e-e4b5ca9107ca",
+      "DisplayName": "AUA.ProjectName.Services",
+      "ColorIndex": 8
+    },
+    "103af885-47cb-4c0d-98b0-5ddf841cfac9": {
+      "ProjectGuid": "103af885-47cb-4c0d-98b0-5ddf841cfac9",
+      "DisplayName": "AUA.ProjectName.ValidationServices",
+      "ColorIndex": 9
+    },
+    "bfb13f8c-778b-4631-9194-604e727b8f91": {
+      "ProjectGuid": "bfb13f8c-778b-4631-9194-604e727b8f91",
+      "DisplayName": "AUA.ProjectName.Tests",
+      "ColorIndex": 10
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "60fe5e3a-83b4-455a-b613-c30499559b09": {
+      "ProjectGuid": "60fe5e3a-83b4-455a-b613-c30499559b09",
+      "DisplayName": "AUA.ProjectName.WebApi",
+      "ColorIndex": 11
+    },
+    "b756e7dd-746d-42ec-b4f5-2eaa0c9fed9a": {
+      "ProjectGuid": "b756e7dd-746d-42ec-b4f5-2eaa0c9fed9a",
+      "DisplayName": "_Solution Items",
+      "ColorIndex": 12
+    },
+    "0c41901d-e9b3-4cb0-8127-033514cdb76d": {
+      "ProjectGuid": "0c41901d-e9b3-4cb0-8127-033514cdb76d",
+      "DisplayName": "Accounting",
+      "ColorIndex": 13
+    }
+  },
+  "NextColorIndex": 14
+}

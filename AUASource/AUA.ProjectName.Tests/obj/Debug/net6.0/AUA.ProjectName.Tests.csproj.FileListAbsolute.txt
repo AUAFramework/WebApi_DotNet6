@@ -1,0 +1,11 @@
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\bin\Debug\net6.0\AUA.ProjectName.Tests.deps.json
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\bin\Debug\net6.0\AUA.ProjectName.Tests.dll
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\bin\Debug\net6.0\ref\AUA.ProjectName.Tests.dll
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\bin\Debug\net6.0\AUA.ProjectName.Tests.pdb
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\obj\Debug\net6.0\AUA.ProjectName.Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\obj\Debug\net6.0\AUA.ProjectName.Tests.AssemblyInfoInputs.cache
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\obj\Debug\net6.0\AUA.ProjectName.Tests.AssemblyInfo.cs
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\obj\Debug\net6.0\AUA.ProjectName.Tests.csproj.CoreCompileInputs.cache
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\obj\Debug\net6.0\AUA.ProjectName.Tests.dll
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\obj\Debug\net6.0\ref\AUA.ProjectName.Tests.dll
+F:\GitRepos2\auarelease\DotNet6\V1.1\4_AddAuACore\AUA.ProjectName\AUA.ProjectName.Tests\obj\Debug\net6.0\AUA.ProjectName.Tests.pdb

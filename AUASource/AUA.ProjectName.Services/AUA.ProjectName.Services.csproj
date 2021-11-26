@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BusinessService\**" />
+    <EmbeddedResource Remove="BusinessService\**" />
+    <None Remove="BusinessService\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AUA.ProjectName.DataLayer\AUA.ProjectName.DataLayer.csproj" />
+    <ProjectReference Include="..\AUA.ProjectName.InMemoryServices\AUA.ProjectName.InMemoryServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AUA.Mapping">
+      <HintPath>..\AUACore\AUA.Mapping.dll</HintPath>
+    </Reference>
+    <Reference Include="AUA.ServiceInfrastructure">
+      <HintPath>..\AUACore\AUA.ServiceInfrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
